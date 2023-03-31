@@ -4,27 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--jQuery-->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <!--datatables js-->
-    <script
-      scr="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"
-    ></script>
-    <!--datatables css-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"
-    />
-    <script src="./index.js"></script>
+       <!--Import jQuery before export.js-->
+       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+
+       <!--Data Table-->
+       <script type="text/javascript"  src=" https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+       <script type="text/javascript"  src=" https://cdn.datatables.net/buttons/1.2.4/js/dataTables.buttons.min.js"></script>
+   
+       <!--Export table buttons-->
+       <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+       <script type="text/javascript" src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.24/build/pdfmake.min.js" ></script>
+       <script type="text/javascript"  src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.24/build/vfs_fonts.js"></script>
+       <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.2.4/js/buttons.html5.min.js"></script>
+       <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.2.1/js/buttons.print.min.js"></script>
+   <script src="./index.js"></script>
+   <!--Export table button CSS-->
+   
+   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+   <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css">
+   
     <title>AcisTek Assignment 1</title>
   </head>
   <body>
-    <table id="example">
+    <table id="example" class="display" style="width:100%">
       <thead>
         <tr>
           <th>Name</th>
@@ -504,5 +507,6 @@
         </tr>
       </tfoot>
     </table>
+  
   </body>
 </html>
