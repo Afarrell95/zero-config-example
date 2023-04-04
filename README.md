@@ -1,5 +1,7 @@
 # zero-config-example
 
+![Untitled](https://user-images.githubusercontent.com/104804156/229895582-7332d8a5-dbc7-4d48-a4ae-5dd457914c5f.png)
+
 ## Description
 This project is a replication of a datatables.js example chart. 
 This was created using HTML, JavaScript, Jquery, and the datatables.js library.
